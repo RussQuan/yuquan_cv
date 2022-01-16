@@ -376,28 +376,37 @@ body {
     justify-content: center;
     margin-top: 0px;
     margin-left: 0px;
-    margin: 10px;
-    align-items: center;
+    margin: 0 20px 0 20px;
+    border: 3px solid red;
   }
   .section1 h1 {
-    font-size: 48px;
+    font-size: 40px;
+    text-align: left;
   }
   .section1 h2 {
-    font-size: 18px;
-    margin-top: 10px;
-    text-align: center;
+    line-height: 30px;
   }
-  .section1 .highlight {
+  .section1 h2.intro {
+    font-size: 18px;
+    margin-top: 0px;
+    text-align: left;
+  }
+  .section1 h2.currently {
+    font-size: 18px;
+    margin-top: 0px;
+    text-align: left;
+  }
+  .section1 h2.highlight {
     font-size: 20px;
-    margin-top: 10px;
-    text-align: center;
+    margin-top: 5px;
+    text-align: left;
     border-radius: 8px;
-    padding-left: 0px;
+    padding: 10px;
   }
   .section1 .myresume {
     display: inline-block;
     background: #000;
-    width: 80%;
+    width: 100%;
     text-align: center;
     font-size: 18px;
     color: white;
@@ -405,17 +414,19 @@ body {
     padding: 16px;
     margin-top: 20px;
     margin-bottom: 15px;
+    margin: 20px auto;
   }
   .section1 .myresume:hover {
     background: #474d48;
   }
   .section1 .tags {
+    margin: 0;
     font-size: 14px;
     margin-top: 18px;
   }
   .section1 .tags span {
     display: inline-block;
-    padding: 10px;
+    padding: 8px;
     border-radius: 5px;
     background: #e6e3e1;
   }
