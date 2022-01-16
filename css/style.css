@@ -346,7 +346,6 @@ body {
     width: 100%;
     height: auto;
     border-radius: 0 0 100px 100px;
-    background: #ffe7c9;
     padding: 10px;
     font-size: 32px;
     display: flex;
@@ -391,7 +390,6 @@ body {
     font-size: 20px;
     margin-top: 10px;
     text-align: center;
-    background: #d9dbda;
     border-radius: 8px;
     padding-left: 0px;
   }
