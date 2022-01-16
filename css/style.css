@@ -1,0 +1,430 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "jf-openhuninn-1.1";
+}
+
+img {
+  display: block;
+  font-size: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@font-face {
+  font-family: "jf-openhuninn-1.1";
+  src: url("fonts/jf-openhuninn-1.1.ttf") format("truetype"), url("fonts/jf-openhuninn-1.1.woff") format("woff"), url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&display=swap");
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "jf-openhuninn-1.1";
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 54px;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 44px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 33px;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 27px;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.h1 {
+  font-size: 40px;
+  line-height: 54px;
+}
+
+.h2 {
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.h3 {
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.h4 {
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.h5 {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.title {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.subtitle {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.body {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.caption {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.small {
+  font-size: 10px;
+  line-height: 12px;
+}
+
+button {
+  border: none;
+}
+
+.btn_primary_md {
+  border: none;
+  transition: 0.3s;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 12px 20px 12px 20px;
+  background: #f5d14d;
+  color: #060000;
+  cursor: pointer;
+}
+.btn_primary_md:hover {
+  background: #ea7747;
+  transition: 0.3s;
+}
+.btn_primary_md:disabled {
+  background: #e5e7eb;
+}
+
+.btn_primary_sm {
+  border: none;
+  transition: 0.3s;
+  font-size: 14px;
+  border-radius: 8px;
+  padding: 6px 20px 6px 20px;
+  background: #f5d14d;
+  color: #060000;
+  cursor: pointer;
+}
+.btn_primary_sm:hover {
+  background: #ea7747;
+  transition: 0.3s;
+}
+.btn_primary_sm:disabled {
+  background: #e5e7eb;
+}
+
+.btn_neutral_md {
+  border: none;
+  transition: 0.3s;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 12px 20px 12px 20px;
+  background: #060000;
+  color: #ffffff;
+  cursor: pointer;
+}
+.btn_neutral_md:hover {
+  background: #9ca3af;
+  transition: 0.3s;
+}
+.btn_neutral_md:disabled {
+  background: #e5e7eb;
+}
+
+.btn_neutral_sm {
+  border: none;
+  transition: 0.3s;
+  font-size: 14px;
+  border-radius: 8px;
+  padding: 6px 20px 6px 20px;
+  background: #060000;
+  color: #ffffff;
+  cursor: pointer;
+}
+.btn_neutral_sm:hover {
+  background: #9ca3af;
+  transition: 0.3s;
+}
+.btn_neutral_sm:disabled {
+  background: #e5e7eb;
+}
+
+body {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #FFFFFF;
+  box-shadow: 15px 15px 35px -10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.section0 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section0 .icon-block {
+  width: 80px;
+  height: auto;
+  border-radius: 0 100px 100px 0;
+  background: #ffe7c9;
+  padding: 20px 10px 20px 20px;
+  font-size: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.section0 .icon-block p {
+  font-size: 20px;
+  color: #474d48;
+  margin-bottom: 8px;
+}
+.section0 .icon-block i {
+  margin-top: 20px;
+}
+.section0 .icon-block i:hover {
+  filter: invert(0.5);
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.section1 h1 {
+  font-size: 52px;
+}
+.section1 h2 {
+  font-size: 22px;
+  margin-top: 10px;
+}
+.section1 .highlight {
+  font-size: 20px;
+  margin-top: 10px;
+  background: #d9dbda;
+  border-radius: 8px;
+  padding-left: 10px;
+}
+.section1 .myresume {
+  display: inline-block;
+  background: #000;
+  width: 30%;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 20px;
+}
+.section1 .myresume:hover {
+  background: #474d48;
+}
+.section1 .tags {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.section1 .tags span {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 5px;
+  background: #e6e3e1;
+}
+
+.section2 img {
+  margin: 30px;
+}
+
+@media (max-width: 575.98px) {
+  body {
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  .flex-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 15px 15px 35px -10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+
+  .section0 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .section0 .icon-block {
+    width: 100%;
+    height: auto;
+    border-radius: 0 0 100px 100px;
+    background: #ffe7c9;
+    padding: 10px;
+    font-size: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .section0 .icon-block p {
+    font-size: 20px;
+    color: #474d48;
+    margin-bottom: 8px;
+  }
+  .section0 .icon-block i {
+    margin: 10px;
+  }
+  .section0 .icon-block i:hover {
+    filter: invert(0.5);
+  }
+  .section0 .icon-block a {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin: 10px;
+    align-items: center;
+  }
+  .section1 h1 {
+    font-size: 52px;
+  }
+  .section1 h2 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .section1 .highlight {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    background: #d9dbda;
+    border-radius: 8px;
+    padding-left: 0px;
+  }
+  .section1 .myresume {
+    display: inline-block;
+    background: #000;
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .section1 .myresume:hover {
+    background: #474d48;
+  }
+  .section1 .tags {
+    font-size: 14px;
+    margin-top: 18px;
+  }
+  .section1 .tags span {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    background: #e6e3e1;
+  }
+
+  .section2 img {
+    display: none;
+    width: 100%;
+    margin: 0px;
+  }
+}
